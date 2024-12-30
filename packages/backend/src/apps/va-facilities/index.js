@@ -10,7 +10,7 @@ export default defineApp({
   authDocUrl: '',
   supportsConnections: true,
   baseUrl: 'https://developer.va.gov/',
-  apiBaseUrl: 'https://sandbox-api.va.gov/services/va_facilities/v1/',
+  apiBaseUrl: 'https://api.va.gov/services/va_facilities/v1/',
   primaryColor: '#6f42c1',
   beforeRequest: [addAuthHeader],
   auth,
